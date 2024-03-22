@@ -1,0 +1,111 @@
+body{
+    background-image:url("https://img.freepik.com/free-vector/background-luxury-minimalist-simple-gradient-style-design-new_483537-1840.jpg");
+ 
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+
+header{
+    height: 60px;
+    background-color: rgb(32, 120, 209);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+h4{
+    color: white;
+}
+
+#big{
+    
+    
+    /*align-items: center;*/
+    
+    text-align: center;
+    color: whitesmoke;
+    background-color: #0097fc20;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+    padding: 5%;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+}
+
+
+.small
+{
+    height: fit-content;
+    color: whitesmoke;
+    background-color:#ffffff41;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.237);
+    text-align: center;
+    height: 450px;
+    padding: 16%;
+    /* align-items:center; */
+}
+img{
+    border-radius: 50%;
+}
+
+button{
+        padding: 10px 20px;
+        margin-right: 10px;
+        margin: 10px;
+        font-size: 16px;
+        border: none;
+        border-radius: 4px;
+        background-color: #233482;
+        color: #fff;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    input[type="branch"],
+    input[type="number"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+      font-family: Arial, sans-serif;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    input[type="branch"],
+    input[type="number"],
+    select:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #007bff; /* Change border color on focus */
+  }
+
+  /* Style for submit button */
+  input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+ input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker shade of primary color */
+  }
