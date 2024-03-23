@@ -1,0 +1,45 @@
+/* .form-wrapper {
+    margin: 10px;
+    padding: 20%;
+  }
+  
+  .full-input {
+    /* display: inline-block; */
+    /* margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    padding: 3px;
+    border: 2px solid blue;
+  }
+  input {
+    outline: none;
+    border: none;
+    display: flex;
+    width:
+    line-height: 1.2em;
+    font-size: 14pt;
+  }
+  label {
+    text-align: center;
+ 
+    display: block;
+    font-size: 12px;
+    color: lightgrey;
+  }
+
+  .cont{
+    margin: 15%;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black; */
+
+  } */
+
+  #facimg{
+    width: 50px;
+    height: 50px;
+    align-content: center;
+  }
