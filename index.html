@@ -8,10 +8,32 @@
 </head>
 
 <body>
-
-<div class="container">
+    <div class="clglogo">
+        <div id="im"><img src="logo.jpg" alt="">
+        </div>
+        <div id="clgname">VEERMATA JIJABAI TECHNOLOGICAL INSTITUTE</div>
+            <script>
+                const collegeName = "Your College Name";
+                const collegeNameElement = document.getElementById('college-name');
+                let index = 0;
+              
+                function type() {
+                  collegeNameElement.textContent += collegeName[index];
+                  index++;
+                  if (index >= collegeName.length) {
+                    index = 0;
+                    return;
+                  }
+                  setTimeout(type, 200); // Adjust the typing speed (in milliseconds) here
+                }
+              
+                type();
+              </script>
+        
+    </div>
+<div class="container1">
     <div id="main">
-        <h1>Welcome to the Registration Portal</h1>
+        <h2>Welcome to the Registration Portal</h2>
     <p>Are you a student or a teacher?</p>
     </div>
 
